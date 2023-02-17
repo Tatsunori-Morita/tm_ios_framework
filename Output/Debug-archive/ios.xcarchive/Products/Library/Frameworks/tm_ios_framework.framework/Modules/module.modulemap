@@ -1,0 +1,11 @@
+framework module tm_ios_framework {
+  umbrella header "tm_ios_framework.h"
+
+  export *
+  module * { export * }
+}
+
+module tm_ios_framework.Swift {
+  header "tm_ios_framework-Swift.h"
+  requires objc
+}
